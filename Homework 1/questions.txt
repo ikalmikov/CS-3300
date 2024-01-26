@@ -1,0 +1,23 @@
+Irakli Kalmikov
+CS 3300
+Homework 1
+
+1) What happens from the time a user puts a URL into their browser to when they are able
+to view a webpage? - Briefly define ISP, URL, DNS, web server.
+
+	First we need to connect to the web using an Internet Service Provider(ISP). Once we are connected to the web, we can browse a website by searching its Uniform Resource Locator(URL), which is the website's unique name. Finally, the Domain Name System(DNS) allows our computer to get the website’s IP address and get its webpage from the server that it is hosted on, and display it on our computer. 
+
+2) What is html? What does it do?
+	
+	HTML stands for HyperText Markup Language. It is a markup language that allows us to structure the basic layout of a website. This includes providing the text, images, links, and lists that will be displayed on a website
+
+3) Access https://www.fordham.edu/. In your own words, describe how this webpage uses
+structure to convey meaning and navigation options to the user.
+
+Firstly, the fordham page has a navigation bar at the top to help us quickly and easily navigate to specific pages from anywhere on the page as it is always displayed at the top. The navigation bar has different sections like, about, mission, academics, and when you hover over each section, it displays other specific pages related to that section.
+The page also uses images related to the articles they are linked to or just to even show what the campus looks like. This is the main page for the university and has to be appealing for students or parents thinking to apply here. For example, I think the picture with the Fordham student crossing the road at Times Square conveys a big message of how close the university is to the city and how that can be very beneficial for incoming students.
+
+
+4) What is an html element? Tag? Attribute?
+	
+	An html element is the actual content that may be between tags. This content may include specific text or an image. Elements are surrounded by tags to specify their roles. For example text can either be in a heading or paragraph tag depending on how we want it on the page. We can even bolden specific text using the b tag. Images can be displayed image tags, but we need to use attributes to give the tage the source of the image. Attributes go within the tag. We can also style an image or text using attributes. For example we can change the size or color of an element using attributes.
