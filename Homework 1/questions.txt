@@ -20,4 +20,5 @@ The page also uses images related to the articles they are linked to or just to 
 
 4) What is an html element? Tag? Attribute?
 	
-	An html element is the actual content that may be between tags. This content may include specific text or an image. Elements are surrounded by tags to specify their roles. For example text can either be in a heading or paragraph tag depending on how we want it on the page. We can even bolden specific text using the b tag. Images can be displayed image tags, but we need to use attributes to give the tage the source of the image. Attributes go within the tag. We can also style an image or text using attributes. For example we can change the size or color of an element using attributes.
+    An html element consists of an opening tag, content, and closing tag. The content may include specific text or an image that we want to display on a website. The content is surrounded by tags that specify what the content is. For example text can either be in heading or paragraph tags. 
+    Images can be displayed using image tags, but we need to use attributes to give the tag the source of the image. Attributes go within the opening tag. We can also style an image or text using attributes. For example, we can change the size or color of an element using attributes.
