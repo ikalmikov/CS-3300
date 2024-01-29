@@ -1,0 +1,17 @@
+Irakli Kalmikov
+CS 3300
+Homework 2
+
+1. Define structural vs semantic meaning in regard to HTML elements.
+	Structural tags are used to provide the basic structure/layout of the page. Heading tags are used to show where we want a heading on our page, and paragraph tags are used to show where we want paragraphs on our page
+	Semantic tags are used to describe a specific element’s purpose or how we may want it to look. Semantic tags may change how content looks visually, but it can also be used to make the html code more readable and indicate the element’s purpose. For example, the cite tag italicizes text, but when reading the code we can easily identify that the element is a citation.
+
+2. Why is it important to use correct html elements when designing web pages?
+	Although it is not necessary to use correct html elements, because with styling we can technically change any tag’s visual effects, it is important to use correct html elements to maintain the organization and readability of our code. It makes it easier to identify the structure and purpose of the elements on our page
+
+3. What are forms in html? What is their purpose? When would you use one?
+	Forms are elements that allow users to fill in and pass information to the website. They can come in different forms like text fields, check boxes, file uploads, and buttons. For example, we can use forms when we have user authentication on our page. The user needs text fields to enter their username and password for the website to authenticate their account.
+
+4. Define and contrast inline vs block elements.
+	Block elements usually start on a new line, take up the entire width of a page, and are major structural components. These include elements like paragraphs, headings, and lists. 
+    Inline elements usually take up a smaller portion of the page or highlight a specific part of content. These include elements like images, bold, and strong.
