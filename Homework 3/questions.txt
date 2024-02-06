@@ -1,0 +1,22 @@
+Irakli Kalmikov
+CS 3300
+Homework 3
+
+3. Compare and contrast margin, padding, and border.
+	Margin represents the spacing outside the border of an element. We can use it to adjust the spacing between different elements without changing the spacing within the elements. Padding is the spacing inside the border of an element, between the border and the content. Border is the outside edge of an element surrounding the content and padding, which is usually in a box shape. The border does not include the margin spacing that is outside of it.
+
+4. Define the following flexbox css rules https://css-tricks.com/snippets/css/a-guide-to-flexbox/ :
+    -display: flex
+    Defines a flex container that enables a flex context for all of its children. We can specify flex for block or inline elements if needed
+    
+    -flex-direction
+    Establishes the main axis of the flexbox, defining whether the flex items will be placed horizontally or vertically. We can specify using row, row-reverse, column, column-reverse
+    
+    -flex-wrap
+    Flex items will try to fit into one line unless we specify to wrap it. This will allow items to continue in another row or column, so that they are not crammed into one line. We can specify using nowrap, wrap, wrap-reverse
+    
+    -justify-content/align-items
+    Justify content defines how flex items will be aligned along the main axis. While align-items defines how the items will be aligned along the cross axis. We can specify using flex-start, flex-end, center …
+    
+    -align-content
+    When we have flex items wrapped on multiple lines, align-content will define how each line of flex items will be aligned across the cross axis. We can specify using flex-start, flex-end, center …

@@ -1,0 +1,39 @@
+/* Set all text elements to color red */
+* {
+    color: red;
+}
+  
+/* Set all paragraph elements to color blue */
+p {
+    color: blue;
+}
+
+/* Set html class 'color-class' to color purple */
+.color-class {
+    color: purple;
+}
+
+/* Set html id 'color-id' to color green */
+#color-id {
+    color: green;
+}
+
+/* Set children p elements of 'color-class' to color cyan */
+.color-class > p {
+    color: cyan;
+}
+
+/* Set descendant span elements of 'color-class' to color yellow */
+.color-class span {
+    color: yellow;
+}
+
+/* Set adjacent sibling span elements of 'color-class' to color pink */
+.color-class + span {
+    color: pink;
+}
+
+/* Set general sibling div elements of 'color class' to color navy */
+.color-class ~ div {
+    color: navy;
+}
