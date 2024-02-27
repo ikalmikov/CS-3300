@@ -1,0 +1,15 @@
+4. What is the DOM? What is meant by the DOM tree?
+    DOM stands for Document Object Model. It is a tree like data structure that 
+    represents the structure of the html page elements. Each node represents an 
+    element, text content, attribute. The DOM uses a hierarchical structure with 
+    surrounding tags/elements being a parent node to the elements within it. 
+    The DOM gives us a nicer way to modify the structure of our html code using 
+    functions like createElement and appendChild.  
+
+5. What is a XSS attack? How do they work? How can you guard against them?
+    A Cross-Site Scripting is when a user can input malicious script into an input
+    field and the website runs this malicious script even when other users access.
+    This can allow the hacker to access other user's personal data.
+    To prevent XSS attacks we have to be caerful of the user input data that we 
+    use as HTML. We must validate user data and ensure they are inputing
+    valid and safe data. 
