@@ -20,8 +20,8 @@
     <script>
         $("#player").click(function(){
             // Get random player id
-            var randomID = Math.floor(Math.random() * (300)) + 1;
-            // console.log(randomID);
+            var randomID = Math.floor(Math.random() * (1000)) + 1;
+            console.log(randomID);
 
             // Get API Request using my API key
             $.ajax({
@@ -39,7 +39,7 @@
                     var position = `Position: ${data.position}`;
                     var height = `Height: ${data.height}`;
                     var country = `Country: ${data.country}`;
-                    // console.log(data);
+                    console.log(data);
                     // console.log(name);
                     // console.log(team);
                     // console.log(position);
