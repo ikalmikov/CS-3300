@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <title>HTTP Requests</title>
+</head>
+<body>
+    <button id="get">Get JSON in Console</button> <br><br>
+    <button id="post">Post JSON Data</button> <br><br>
+    <button id="put">Put JSON Data</button>
+
+    <script>
+        $("#get").click(function(){
+            $.ajax({
+                url: "http://localhost:3000/posts",
+                type: "GET",
+                dataType: "json",
+                success: function(data){
+                    console.log(data);
+                }
+            });
+        });
+
+        $("#post").click(function(){
+            const postData = {
+                title: "New Post Data",
+                views: 100
+            };
+            const serializedJSON = JSON.stringify(postData);
+
+            $.post("http://localhost:3000/posts", serializedJSON, function(data){
+                console.log(data);
+            });
+        })
+
+        $("#put").click(function(){
+            const putData = {
+                title: "New Put Data",
+                views: 2000
+            };
+            const serializedJSON = JSON.stringify(putData);
+
+            $.ajax({
+                url: "http://localhost:3000/posts/2",
+                method: "PUT",
+                data: serializedJSON,
+                dataType: "json",
+                success: function(data){
+                    console.log(data);
+                }
+            });
+        });
+
+
+    </script>
+</body>
+</html>

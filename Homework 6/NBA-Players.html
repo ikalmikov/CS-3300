@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NBA Players</title>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+    <div>
+        <h1 id="name"></h1>
+        <h3 id="team"></h3>
+        <h3 id="position"></h3>
+        <h3 id="height"></h3>
+        <h3 id="country"></h3>
+    </div>
+    <button id="player">Get a Random NBA Player</button>
+
+    <script>
+        $("#player").click(function(){
+            // Get random player id
+            var randomID = Math.floor(Math.random() * (300)) + 1;
+            // console.log(randomID);
+
+            // Get API Request using my API key
+            $.ajax({
+                url: `https://api.balldontlie.io/v1/players/${randomID}`,
+                type: "GET",
+                beforeSend: function(xhr) {
+                    xhr.setRequestHeader('Authorization', '12bf862c-4ba0-4bf6-9761-66bdd25f3a19');
+                },
+                dataType: "json",
+                success: function(data){
+                    // Store variables from JSON Data
+                    data = data.data;
+                    var name = `${data.first_name} ${data.last_name}`;
+                    var team = `Team: ${data.team.full_name}`;
+                    var position = `Position: ${data.position}`;
+                    var height = `Height: ${data.height}`;
+                    var country = `Country: ${data.country}`;
+                    // console.log(data);
+                    // console.log(name);
+                    // console.log(team);
+                    // console.log(position);
+                    // console.log(height);
+                    // console.log(country);
+
+                    // Display Data with JQuery
+                    $("#name").text(name);
+                    $("#team").text(team);
+                    $("#position").text(position);
+                    $("#height").text(height);
+                    $("#country").text(country);
+                }
+            });
+        });
+    </script>
+</body>
+</html>

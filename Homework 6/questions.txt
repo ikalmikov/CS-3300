@@ -1,0 +1,24 @@
+1. What is HTTP? What are the different HTTP request methods and how do they differ?
+    HTTP stands for Hypertext Transfer Protocol. It is a protocol that applications 
+    use to transmit data, like HTML files, over the web to each other. 
+    HTTP Methods are the specific steps/requests the application needs to do to the 
+    specified data. These are some of the methods:
+    GET - retrieve data
+    POST - submit data
+    DELETE - remove data
+    PUT - update/change current data
+    PATCH - update/change some parts of current data
+
+2. What is an API? What is JSON?
+    API stands for Application Programming Interface. It is a set of rules and protocols
+    that allows applications to communicate with each other. For example, an API can be used
+    as the middleman between a database and frontend of a website. An API can help the
+    frontend communicate with the backend and vice versa.
+    JSON stands for JavaScript Object Notation. It is a data format used in Javascript.
+    It uses key-value pairs to define the variables of a functions.
+
+3. What is AJAX? What is meant by asynchronous code?
+    AJAX stands for Asynchronous JavaScript and XML. It allows a webpage to retrieve data
+    asynchrounously, meaning it can gather data and update the webpage without having to
+    reload the page. It helps us dynamically get XML data and update the page without 
+    reloading the page.
