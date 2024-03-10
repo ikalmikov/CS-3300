@@ -1,0 +1,15 @@
+2. What are some examples of how PHP and JavaScript are alike and how they differ?
+    PHP and JavaScript are both scripting languages used for web development. 
+    However, PHP is used on the server side/backend and JS is used on the client side/frontend.
+    They both support functions, objects, if statements, and both assign variable types upon interpetation.
+    In php all variables are defined with a $, while in JS we can use let, var, and const for different purposes and scopes.
+    JS also allows for asynchronous functions, while default PHP does not.
+
+3. Define MVC, what are the responsibilities of each piece?
+    MVC stands for Model View Controller. It is a software architecture used for web development.
+    The Model is a basically the bacekend storing, retreiving, and updating the database, 
+    and dealing with the logic of the application
+    The View is the frontend user interface that the user sees and interacts with. 
+    The View should look appealing and have a smooth and seamless user experience.
+    The Controller is middle man of the View and Model. It processes user requests input data 
+    and updates the View and Model accordingly.
