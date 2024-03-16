@@ -1,0 +1,40 @@
+1. What does it mean to escape data? How does escaping data help us avoid malicious code?
+    Escaping data refers to characters gives specific code a special meaning in a particular context. 
+    For example, in HTML, <, >, and &, helps us display literal characters. In SQL, ' and ", helps us 
+    differentiate words from real code. We can use escaping characters to prevent malicious code input 
+    from a user from being interpreted, as a XSS attack or SQL injection.
+
+2a. What is REST? What is meant by Statelessness?
+    REST stands for REpresentational State Transfer. It is an architectural design for web applications
+    that allows the client and server side to be seperated. This means that the client side code can be 
+    changed without changing the server side code and vice versa. The REST paradigm is stateless, meaning
+    that the client side does not need to know about the state of the server side and vice versa. 
+    They communicate in specific messages without having to know previous messages.
+
+2b. What is a resource?
+    A resource refers to what we are dealing with when we make an HTTP request. It describes the object, 
+    document, or thing that you may need to store or send to other services. The HTTP request specifices 
+    what we need to with the specific resource we are dealing with.
+
+2c. Look at the section on Path design: In a RESTful architecture paradigm what 
+would be the proper way to create a path for: (provide URL and HTTP method):
+    i. getting a list of users?
+        GET https://store.com/users
+
+    ii. getting a particular user?
+        GET https://store.com/users/123
+
+    iii. saving a user?
+        POST https://store.com/users
+
+3. What is a Cookie?
+    A cookie is a piece of data stored on the user's device by the web browser. This data includes
+    user preferences, session identifiers, and other information about the user's interaction with
+    a website. Cookies allow websites to personalize user experiences, track user activity, and 
+    maintain state across multiple requests.
+
+4. What is a Session?
+    A session is a period of a user's interaction on a web application. It begins when a user accesses 
+    the site and ends when they leave or after a period of inactivity. During a session, the server 
+    keeps stateful information about the user, such as login credentials, shopping cart items, or 
+    other temporary data, allowing for personalized and dynamic experiences across multiple interactions.
