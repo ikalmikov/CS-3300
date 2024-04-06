@@ -1,0 +1,14 @@
+1. What is SQL? What are relational databases?
+    SQL stands for Structure Query Language. It is programming language  designed for managing data
+    held in relational database systems. With SQL, we can do commands like adding, updating, deleting, 
+    retrieving, and manipulating data within a database. 
+    A relational database is a type of database where different entities can be related to one another. 
+    It stores data into tables/columns and rows, with a unique key identifying each row. The relationships
+    between data is based on the characteristics of the entities.
+
+4. What is a PDO in PHP? Why do we need to use prepared statements?
+    PDO stands for PHP Data Objects. It is a PHP extension that allows us to perform database operations using
+    the same PHP code for different kinds of databases.
+    Prepared statements are a feature in the PDO that allows us to execute the same SQL statements with high efficiency. 
+    They are parsed and compiled only once, which allows for efficiency and can be executed many times with different values. 
+    They also help prevent SQL injection attacks as they help seperate the logic of the code from the data.
